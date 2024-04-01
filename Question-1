@@ -1,0 +1,15 @@
+//Function to swap the case of each character in a string 
+function swapCase(inputString){
+    let swapppedString='';
+    for (let i=0;i< inputString.length;i++){
+        if (inputString[i]=== inputString[i].toUpperCase()){
+            swapppedString += inputString(i).toLowerCase();
+        }else {
+            swapppedString += inputString(i).toUpperCase();
+        }
+    }
+    return swapppedString;
+}
+
+console.log(swapCase('The Quick Brown Fox'));
+//Output: 'tHE qUICK bROWN FOX'

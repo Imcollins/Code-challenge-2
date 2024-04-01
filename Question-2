@@ -1,0 +1,12 @@
+// Solving using for loop to interate between the two intergers and push them into array
+function createArray(start,end){
+    let resuit=[];
+    for (let i=start;i<=end; i++){
+        resuit.push(i);
+    }
+    return resuit;
+}
+//let resuit=createArray(4,7)
+
+console.log(createArray(4,7));
+console.log(createArray(-4,7));
